@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "FGzQMcDPLRF8rTDS+0ZOHpN2vXCNAbeIsiBGHZyA39c8xK9U5mIYx38GVVHjJw8Gc5PvmSChD9GoONM9r1OsHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psych\\Source\\Repos\\KeyboardMainBrowserWindowVideoPlaybackControl\\KeyboardMainBrowserWindowVideoPlaybackControl\\KeyboardMainBrowserWindowVideoPlaybackControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psych\\.nuget\\packages\\mousekeyhook\\5.5.0\\mousekeyhook.5.5.0.nupkg.sha512",
+    "C:\\Users\\psych\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\psych\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MouseKeyHook 5.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MouseKeyHook",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

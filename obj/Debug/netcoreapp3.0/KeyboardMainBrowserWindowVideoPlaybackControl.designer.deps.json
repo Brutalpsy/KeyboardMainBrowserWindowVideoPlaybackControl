@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MouseKeyHook/5.5.0": {
+        "runtime": {
+          "lib/net40/Gma.System.MouseKeyHook.dll": {
+            "assemblyVersion": "5.5.108.0",
+            "fileVersion": "5.5.108.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MouseKeyHook/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iEllkR8qBWiMB2LaHH4QeUT1do1hK+yOYUbbcVRixHH+xmAacFbzlARCF03YsjJakREm67VJSk8Gu1ySLeOUJg==",
+      "path": "mousekeyhook/5.5.0",
+      "hashPath": "mousekeyhook.5.5.0.nupkg.sha512"
+    }
+  }
+}

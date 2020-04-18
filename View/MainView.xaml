@@ -1,0 +1,16 @@
+﻿<Window x:Class="KeyboardMainBrowserWindowVideoPlaybackControl.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyboardMainBrowserWindowVideoPlaybackControl.View"
+        mc:Ignorable="d"
+        Title="MainView" Height="352" Width="546">
+    <Grid>
+        <Button 
+            Command="{Binding StartCommand}"
+            CommandParameter="{x:Reference StartButton}"
+            x:Name="StartButton" Content="Start" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Height="125" Width="276"/>
+
+    </Grid>
+</Window>
